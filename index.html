@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem - Traveller</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="container banner">
+        <header class="header">
+            <h2> Traveller <i class="fas fa-globe-americas"></i></h2>
+            <nav class="header__menu">
+                <ul class="links__menu">
+                    <li><a href="#" class="header__menu__item">Compras <i class="fas fa-shopping-basket"></i></a></li>
+                    <li><a href="#" class="header__menu__item">Hoteis <i class="fas fa-concierge-bell"></i></a></li>
+                    <li><a href="#" class="header__menu__item">Gastronomia <i class="fas fa-utensils"></i></a></li>
+                    <li><a href="#" class="header__menu__item">Eventos <i class="far fa-calendar-alt"></i></a></li>
+                    <li><a href="#" class="header__menu__item">Lazer <i class="fas fa-beer"></i></a></li>
+                </ul>
+                <div class="hamburguer">
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                    <div class="linha"></div>
+                </div>
+            </nav>
+        </header>
+        <div class="header__chamada">
+            <h1 class="header__titulo">Escolher Hospedagem </h1>
+            <div class="header__escolha">
+                <form name="tipo_de_viagem" class="tipo_de_viagem" method="post">
+                    <fieldset class="tipo_de_viagem fieldset">
+                        <div class="tipo_de_viagem">
+                            Tipo de viagem:
+                            <input type="radio" name="tipo" id="trabalho">
+                            <label for="trabalho">Trabalho</label>
+                            <input type="radio" name="tipo" id="negocios">
+                            <label for="negocios">Negócios</label>
+                            <input type="radio" name="tipo" id="turismo">
+                            <label for="turismo">Turismo</label>
+                            <p class="tipo_de_viagem">
+                                <label for="hotel">Hotel: </label>
+                                <input type="text" id="hotel" placeholder="Ex: Renaissance São Paulo Hotel">
+                            </p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <a href="" class="header__botao">Alterar busca</a>
+        </div>
+    </section>
+    <section class="hospedagem">
+        <h3>Procure hotel por região</h3>
+        
+        <iframe class="hospedagem mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233929.42876496253!2d-46.82025109497654!3d-23.6348944292703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1619570713334!5m2!1spt-BR!2sbr" 
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="destaques">
+        <h3>Destaque Hotéis</h3>
+        
+            <div class="destaques_box">
+                <img src="./image/quarto_ibis.jpg" alt="imagem com o quarto do hotel Ibis" srcset="" width="300px" height="175px">
+                <h4>IBIS Styles São Paulo Anhembi</h4>
+                <p>Hotel de design econômico, aberto às mentes criativas.</p>
+            </div>
+            <div class="destaques_box">
+                <img src="./image/comfort.jpeg" alt="imagem com o quarto do hotel Comfort" srcset="" width="300px" height="175px">
+                <h4>Comfort Ibirapuera</h4>
+                <p>A poucos mais de um quilômetro do parque que é cartão postal de São Paulo, o Comfort Hotel Ibirapuera é muito procurado por quem viaja a trabalho justamente por causa da sua localização.</p>
+            </div>
+            <div class="destaques_box">
+                <img src="./image/blue_tree.png" alt="imagem com o quarto do hotel Blue Tree" srcset="" width="300px" height="175px">
+                <h4>Blue Tree Premium Morumbi</h4>
+                <p>O Blue Tree Premium Morumbi é um hotel moderno e com atenção aos detalhes.</p>
+            </div>
+        </ul>
+    </section>
+    <footer class="rodape">
+        <!-- <ul>
+          <li><a href="#"><i class="fab fa-facebook"></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></a></li>
+          <li><a href="#"><i class="fab fa-pinterest"></a></li>
+        </ul> -->
+        <p>
+            Direitos reservados - Projeto Traveller
+        </p>
+    </footer>
+    <script src="./js/menu.js"></script>
+
+    <section class="forms"></section>
+
+    <footer class="rodape"></footer>
+
+
+
+</body>
+
+</html>
