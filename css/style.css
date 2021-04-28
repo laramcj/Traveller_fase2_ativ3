@@ -96,16 +96,20 @@ input{
 .destaques {  
   background: #1d2f47;
   color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   width: 100%;
   padding: 20px 0;
   text-align: center;
 }
-.destaques h3 {
+.destaques_titulo {
+    width: 100%;
   font-size: 2em;
   margin-bottom: 35px;
+}
+.destaques_hoteis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
 }
 .destaques_box {  
   display: flex;
@@ -214,10 +218,9 @@ input{
   .mapa {
       width: 95%;
   }
-  .destaques {  
-    flex-direction: column;
-    align-items: center;
-  }
+  .destaques_hoteis {
+   flex-wrap: wrap;
+}
   .destaques_box {  
     width: 95%;
     height: 50vh;
