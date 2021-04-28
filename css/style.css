@@ -117,7 +117,6 @@ input{
   align-items: center;
   justify-items: center;
   width: 35%;
-  height: 50vh;
   margin: 15px;
   padding: 10px; 
   text-align: center;
@@ -220,10 +219,10 @@ input{
   }
   .destaques_hoteis {
    flex-wrap: wrap;
+
 }
   .destaques_box {  
     width: 95%;
-    height: 50vh;
   } 
   .destaques_box i{  
     width: 100%;
@@ -237,7 +236,7 @@ input{
     font-size: 14px;
   }
   .tipo_de_viagem{
-    font-size: 0.4em;
+    font-size: 0.9em;
   }
   .mapa {
     width: 125%;
